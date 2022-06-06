@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div className='nav'>
-        <Link to='/'>Home</Link>
+        <Link to='/component-navigation'>Home</Link>
         <Link to='/component-navigation/about' style={{ marginLeft: '2rem' }}>
           About
         </Link>
