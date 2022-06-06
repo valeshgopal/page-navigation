@@ -9,10 +9,10 @@ function App() {
     <>
       <div className='nav'>
         <Link to='/'>Home</Link>
-        <Link to='/about' style={{ marginLeft: '2rem' }}>
+        <Link to='/component-navigation/about' style={{ marginLeft: '2rem' }}>
           About
         </Link>
-        <Link to='/contact' style={{ marginLeft: '2rem' }}>
+        <Link to='/component-navigation/contact' style={{ marginLeft: '2rem' }}>
           Contact
         </Link>
       </div>
