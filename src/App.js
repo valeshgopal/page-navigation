@@ -17,9 +17,9 @@ function App() {
         </Link>
       </div>
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/component-navigation' element={<Home />} />
+        <Route path='/component-navigation/about' element={<About />} />
+        <Route path='/component-navigation/contact' element={<Contact />} />
         <Route
           path='*'
           element={<h1 style={{ marginLeft: '2rem' }}>Not Found</h1>}
